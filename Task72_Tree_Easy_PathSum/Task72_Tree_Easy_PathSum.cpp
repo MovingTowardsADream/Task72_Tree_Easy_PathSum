@@ -39,8 +39,6 @@
 
 class Solution {
 public:
-    bool result = 0;
-
     bool hasPathSum(TreeNode* root, int targetSum) {
         if (root == NULL)
             return 0;
